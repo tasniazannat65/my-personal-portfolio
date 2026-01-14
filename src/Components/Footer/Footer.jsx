@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router';
 
 export default function Footer() {
   const [email, setEmail] = useState('');
@@ -128,13 +129,13 @@ export default function Footer() {
               <ul className="space-y-3">
                 {quickLinks.map((link) => (
                   <li key={link.name}>
-                    <a
-                      href={link.path}
+                    <Link
+                      to={link.path}
                       className="text-primary-100 hover:text-white transition-colors flex items-center gap-2 group text-sm"
                     >
                       <span className="w-1.5 h-1.5 rounded-full bg-secondary-400 opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1"></span>
                       {link.name}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
