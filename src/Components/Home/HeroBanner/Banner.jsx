@@ -166,12 +166,28 @@ export default function Banner() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button className="group px-8 py-4 bg-gradient-to-r from-secondary-500 to-secondary-600 text-white font-semibold rounded-xl hover:from-secondary-600 hover:to-secondary-700 transition-all duration-300 shadow-lg hover:shadow-2xl hover:shadow-secondary-500/50 hover:-translate-y-0.5 flex items-center justify-center">
-                Download Resume
-                <svg className="w-5 h-5 ml-2 group-hover:translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                </svg>
-              </button>
+             <a
+  href="/Tasnia_Zannat_Frontend_Developer_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group px-8 py-4 bg-gradient-to-r from-secondary-500 to-secondary-600 text-white font-semibold rounded-xl hover:from-secondary-600 hover:to-secondary-700 transition-all duration-300 shadow-lg hover:shadow-2xl hover:shadow-secondary-500/50 hover:-translate-y-0.5 flex items-center justify-center gap-2"
+>
+  View Resume
+  <svg
+    className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M14 5l7 7m0 0l-7 7m7-7H3"
+    />
+  </svg>
+</a>
+
               <button className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-xl border-2 border-white/20 hover:bg-white hover:text-primary-900 transition-all duration-300 shadow-md hover:shadow-lg">
                 <Link to={'/projects'}>View Projects</Link>
               </button>
