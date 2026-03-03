@@ -104,17 +104,16 @@ const AboutMe = () => {
               Hi, I'm <span className="bg-gradient-to-r from-primary-600 to-secondary-500 bg-clip-text text-transparent">Tasnia</span>
             </h3>
             
-            <p className="text-lg text-primary-800 leading-relaxed">
-              I'm a <span className="font-semibold text-primary-700">frontend web developer</span> passionate about building 
-              beautiful, functional, and user-friendly websites. My journey into web development started with curiosity 
-              and has grown into a dedication to create seamless digital experiences.
-            </p>
+           <p className="text-lg text-primary-800 leading-relaxed">
+  I'm a <span className="font-semibold text-primary-700">frontend developer</span> focused on building 
+  scalable, high-performance web applications with clean architecture and modern UI practices. 
+  I transform ideas into interactive digital experiences that are both functional and visually refined.
+</p>
 
-            <p className="text-lg text-primary-800 leading-relaxed">
-              I specialize in <span className="font-semibold text-primary-700">React, JavaScript, and modern CSS frameworks</span> like 
-              Tailwind CSS. Every project I build is an opportunity to learn, innovate, and push the boundaries of what's 
-              possible on the web.
-            </p>
+<p className="text-lg text-primary-800 leading-relaxed">
+  I work extensively with <span className="font-semibold text-primary-700">React, JavaScript, and Redux Toolkit</span>, 
+  leveraging structured state management and component-driven development to create maintainable and efficient applications.
+</p>
 
             {/* Quick Stats */}
             <div className="grid grid-cols-3 gap-4 pt-4">
@@ -134,7 +133,7 @@ const AboutMe = () => {
 
             {/* Key Skills */}
             <div className="flex flex-wrap gap-2 pt-2">
-              {['React', 'JavaScript', 'Tailwind CSS', 'Responsive Design', 'UI/UX'].map((skill) => (
+              {['React', 'JavaScript', 'Tailwind CSS', 'Redux Toolkit', 'Responsive Design', 'UI/UX'].map((skill) => (
                 <span
                   key={skill}
                   className="px-4 py-2 bg-white text-primary-700 font-medium text-sm rounded-lg border border-primary-200 shadow-sm hover:shadow-md hover:border-primary-400 transition-all duration-200"

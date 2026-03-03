@@ -61,7 +61,8 @@ export default function Skill() {
         { name: 'JavaScript (ES6+)', level: 88, icon: '⚡', projects: 12 },
         { name: 'React.js', level: 85, icon: '⚛️', projects: 10 },
         { name: 'Tailwind CSS', level: 90, icon: '💨', projects: 15 },
-      ]
+        { name: 'Redux Toolkit', level: 75, icon: '🧠', projects: 1 } 
+     ]
     },
     backend: {
       title: 'Backend Development',

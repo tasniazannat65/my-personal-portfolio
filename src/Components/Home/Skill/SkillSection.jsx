@@ -46,6 +46,8 @@ const SkillSection = () => {
         { name: 'JavaScript', level: 85, icon: '⚡' },
         { name: 'React', level: 88, icon: '⚛️' },
         { name: 'Tailwind CSS', level: 92, icon: '💨' },
+        { name: 'Redux Toolkit', level: 75, icon: '🧠' } 
+
       ]
     },
     {

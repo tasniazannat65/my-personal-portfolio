@@ -84,11 +84,12 @@ const About = () => {
                 <span className="w-2 h-2 bg-primary-400 rounded-full mr-3"></span>
                 Beyond Code
               </h3>
-              <p className="text-lg text-primary-800 leading-relaxed">
-                When I'm not coding, you'll find me exploring creative outlets like <span className="font-semibold text-primary-700">digital art and design</span>, 
-                or unwinding with a good book. I also enjoy staying active through sports and spending time in nature. 
-                These hobbies fuel my creativity and help me approach problems with a fresh perspective.
-              </p>
+           <p className="text-lg text-primary-800 leading-relaxed">
+  My coding journey began with curiosity and a passion for creating things that live on the internet. 
+  What started as tinkering with HTML and CSS quickly evolved into building dynamic, scalable web applications. 
+  I've worked extensively with <span className="font-semibold text-primary-700">JavaScript, React, and Redux Toolkit</span>, 
+  focusing on predictable state management, performance optimization, and clean architectural patterns.
+</p>
             </div>
 
             {/* Personality Traits */}
@@ -122,6 +123,8 @@ const About = () => {
                       { name: 'React & JavaScript', level: 90, color: 'from-primary-500 to-primary-700' },
                       { name: 'HTML & CSS', level: 95, color: 'from-secondary-500 to-secondary-700' },
                       { name: 'Tailwind CSS', level: 88, color: 'from-primary-400 to-primary-600' },
+                      { name: 'Redux Toolkit (State Management)', level: 75, color: 'from-purple-500 to-purple-700' },
+
                       { name: 'UI/UX Design', level: 80, color: 'from-secondary-400 to-secondary-600' },
                     ].map((skill) => (
                       <div key={skill.name} className="space-y-2">
